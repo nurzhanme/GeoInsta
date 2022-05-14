@@ -32,5 +32,5 @@ jobs:
       with:
         context: ./GeoInsta
         push: true
-        tags: $(date +%s)
+        tags: user/app:latest
         labels: ${{ steps.meta.outputs.labels }}
